@@ -1,0 +1,566 @@
+[
+    {
+        "code": "01",
+        "nom": "Ain",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "02",
+        "nom": "Aisne",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": false
+    },
+    {
+        "code": "03",
+        "nom": "Allier",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "04",
+        "nom": "Alpes-de-Haute-Provence",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "05",
+        "nom": "Hautes-Alpes",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "06",
+        "nom": "Alpes-Maritimes",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "07",
+        "nom": "Ardèche",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "08",
+        "nom": "Ardennes",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "09",
+        "nom": "Ariège",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "10",
+        "nom": "Aube",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "11",
+        "nom": "Aude",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "12",
+        "nom": "Aveyron",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "13",
+        "nom": "Bouches-du-Rhône",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "14",
+        "nom": "Calvados",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "15",
+        "nom": "Cantal",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "16",
+        "nom": "Charente",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "17",
+        "nom": "Charente-Maritime",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "18",
+        "nom": "Cher",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "19",
+        "nom": "Corrèze",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "21",
+        "nom": "Côte-d'Or",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "22",
+        "nom": "Côtes-d'Armor",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "23",
+        "nom": "Creuse",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "24",
+        "nom": "Dordogne",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "25",
+        "nom": "Doubs",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "26",
+        "nom": "Drôme",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "27",
+        "nom": "Eure",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "28",
+        "nom": "Eure-et-Loir",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": false
+    },
+    {
+        "code": "29",
+        "nom": "Finistère",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "30",
+        "nom": "Gard",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "31",
+        "nom": "Haute-Garonne",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "32",
+        "nom": "Gers",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "33",
+        "nom": "Gironde",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "34",
+        "nom": "Hérault",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "35",
+        "nom": "Ille-et-Vilaine",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "36",
+        "nom": "Indre",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "37",
+        "nom": "Indre-et-Loire",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "38",
+        "nom": "Isère",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "39",
+        "nom": "Jura",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "40",
+        "nom": "Landes",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "41",
+        "nom": "Loir-et-Cher",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "42",
+        "nom": "Loire",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "43",
+        "nom": "Haute-Loire",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "44",
+        "nom": "Loire-Atlantique",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "45",
+        "nom": "Loiret",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "46",
+        "nom": "Lot",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "47",
+        "nom": "Lot-et-Garonne",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "48",
+        "nom": "Lozère",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "49",
+        "nom": "Maine-et-Loire",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "50",
+        "nom": "Manche",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "51",
+        "nom": "Marne",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "52",
+        "nom": "Haute-Marne",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "53",
+        "nom": "Mayenne",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "54",
+        "nom": "Meurthe-et-Moselle",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "55",
+        "nom": "Meuse",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "56",
+        "nom": "Morbihan",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "57",
+        "nom": "Moselle",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "58",
+        "nom": "Nièvre",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "59",
+        "nom": "Nord",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "60",
+        "nom": "Oise",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": false
+    },
+    {
+        "code": "61",
+        "nom": "Orne",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "62",
+        "nom": "Pas-de-Calais",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "63",
+        "nom": "Puy-de-Dôme",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "64",
+        "nom": "Pyrénées-Atlantiques",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "65",
+        "nom": "Hautes-Pyrénées",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "66",
+        "nom": "Pyrénées-Orientales",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "67",
+        "nom": "Bas-Rhin",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "68",
+        "nom": "Haut-Rhin",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "69",
+        "nom": "Rhône",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "70",
+        "nom": "Haute-Saône",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "71",
+        "nom": "Saône-et-Loire",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "72",
+        "nom": "Sarthe",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "73",
+        "nom": "Savoie",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "74",
+        "nom": "Haute-Savoie",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "75",
+        "nom": "Paris",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "76",
+        "nom": "Seine-Maritime",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "77",
+        "nom": "Seine-et-Marne",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "78",
+        "nom": "Yvelines",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "79",
+        "nom": "Deux-Sèvres",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "80",
+        "nom": "Somme",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "81",
+        "nom": "Tarn",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "82",
+        "nom": "Tarn-et-Garonne",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "83",
+        "nom": "Var",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "84",
+        "nom": "Vaucluse",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "85",
+        "nom": "Vendée",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "86",
+        "nom": "Vienne",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "87",
+        "nom": "Haute-Vienne",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": false
+    },
+    {
+        "code": "88",
+        "nom": "Vosges",
+        "ligne_grande_vitesse": false,
+        "desserte_tgv": true
+    },
+    {
+        "code": "89",
+        "nom": "Yonne",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": false
+    },
+    {
+        "code": "90",
+        "nom": "Territoire de Belfort",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "91",
+        "nom": "Essonne",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "92",
+        "nom": "Hauts-de-Seine",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "93",
+        "nom": "Seine-Saint-Denis",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "94",
+        "nom": "Val-de-Marne",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": true
+    },
+    {
+        "code": "95",
+        "nom": "Val-d'Oise",
+        "ligne_grande_vitesse": true,
+        "desserte_tgv": false
+    }
+]
