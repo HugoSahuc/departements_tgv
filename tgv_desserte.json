@@ -98,7 +98,7 @@
     {
         "code": "17",
         "nom": "Charente-Maritime",
-        "ligne_grande_vitesse": true,
+        "ligne_grande_vitesse": false,
         "desserte_tgv": true
     },
     {
@@ -464,7 +464,7 @@
     {
         "code": "79",
         "nom": "Deux-Sèvres",
-        "ligne_grande_vitesse": true,
+        "ligne_grande_vitesse": false,
         "desserte_tgv": true
     },
     {
