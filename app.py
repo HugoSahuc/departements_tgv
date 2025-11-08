@@ -83,9 +83,10 @@ folium.LayerControl().add_to(m)
 
 # Calculs pourcentage population
 pop_total = df['PTOT'].sum()
+pop_lgv = df.loc[df['ligne_grande_vitesse'], 'PTOT'].sum()
 pop_desserte = df.loc[df['desserte_tgv'], 'PTOT'].sum()
-pop_lgv = df.loc[(~df['desserte_tgv']) & (df['ligne_grande_vitesse']), 'PTOT'].sum()
-pop_aucune = pop_total - (pop_desserte + pop_lgv)
+pop_traverse_sans_desserte = df.loc[(df['ligne_grande_vitesse']) & (~df['desserte_tgv']), 'PTOT'].sum()
+pop_aucune = df.loc[(~df['ligne_grande_vitesse']) & (~df['desserte_tgv']), 'PTOT'].sum()
 
 # Affichage Streamlit
 st.title("Desserte TGV simplifiée des départements français et population couverte")
@@ -101,8 +102,9 @@ st_folium(m, width=800, height=600)
 st.metric("Population totale", f"{pop_total:,}".replace(",", " "))
 
 st.subheader("Pourcentage de population couverte")
+st.metric("Avec ligne LGV", f"{pop_lgv / pop_total * 100:.2f} %")
 st.metric("Avec desserte TGV", f"{pop_desserte / pop_total * 100:.2f} %")
-st.metric("Traversé par LGV (sans desserte)", f"{pop_lgv / pop_total * 100:.2f} %")
+st.metric("Traversé par LGV sans desserte", f"{pop_traverse_sans_desserte / pop_total * 100:.2f} %")
 st.metric("Sans desserte ni LGV", f"{pop_aucune / pop_total * 100:.2f} %")
 
 st.subheader("Détail des départements")
