@@ -398,7 +398,7 @@
     {
         "code": "68",
         "nom": "Haut-Rhin",
-        "ligne_grande_vitesse": true,
+        "ligne_grande_vitesse": false,
         "desserte_tgv": true
     },
     {
@@ -410,7 +410,7 @@
     {
         "code": "70",
         "nom": "Haute-Saône",
-        "ligne_grande_vitesse": false,
+        "ligne_grande_vitesse": true,
         "desserte_tgv": false
     },
     {

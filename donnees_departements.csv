@@ -27,8 +27,6 @@ REG;Région;DEP;Département;NBARR;NBCAN;NBCOM;PMUN;PTOT
 28;Normandie;27;Eure;3;23;585;598934;612288
 24;Centre-Val de Loire;28;Eure-et-Loir;4;15;365;431277;441129
 53;Bretagne;29;Finistère;4;27;277;921638;946331
-94;Corse;2A;Corse-du-Sud;2;11;124;162942;165307
-94;Corse;2B;Haute-Corse;3;15;236;184655;187252
 76;Occitanie;30;Gard;3;23;351;756543;770043
 76;Occitanie;31;Haute-Garonne;3;27;586;1434367;1457716
 76;Occitanie;32;Gers;3;17;461;192437;198905
@@ -95,7 +93,3 @@ REG;Région;DEP;Département;NBARR;NBCAN;NBCOM;PMUN;PTOT
 11;Île-de-France;93;Seine-Saint-Denis;3;21;40;1668670;1675249
 11;Île-de-France;94;Val-de-Marne;3;25;47;1415367;1424088
 11;Île-de-France;95;Val-d'Oise;3;21;184;1256607;1266299
-01;Guadeloupe;971;Guadeloupe;2;21;32;384315;389277
-02;Martinique;972;Martinique;4;NA;34;360749;364916
-03;Guyane;973;Guyane;3;NA;22;286618;288739
-04;La Réunion;974;La Réunion;4;25;24;871157;880875
