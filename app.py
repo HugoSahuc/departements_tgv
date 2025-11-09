@@ -24,6 +24,8 @@ with open("lignes_lgv.geojson", encoding="utf8") as f:
     lgv_geojson = json.load(f)
 
 # Fusionner population et données TGV
+pop_df["DEP"] = pop_df["DEP"].astype(str).str.zfill(2)
+tgv_df["code"] = tgv_df["code"].astype(str).str.zfill(2)
 df = pop_df.merge(tgv_df, left_on="DEP", right_on="code", how="left")
 df['ligne_grande_vitesse'] = df['ligne_grande_vitesse'].astype('boolean').fillna(False)
 df['desserte_tgv'] = df['desserte_tgv'].astype('boolean').fillna(False)
@@ -121,9 +123,9 @@ with st.expander("🗺️ Détail des départements (édition possible)", expand
         cols[1].write(row['Département'])
         cols[2].write(f"{int(row['PTOT']):,}".replace(",", " "))
         key_lgv = f"lgv_{row['DEP']}"
-        val_lgv = cols[3].checkbox("", value=st.session_state.lgv_vals[i], key=key_lgv)
+        val_lgv = cols[3].checkbox("LGV", value=st.session_state.lgv_vals[i], key=key_lgv, label_visibility="collapsed")
         key_dtv = f"desserte_{row['DEP']}"
-        val_dtv = cols[4].checkbox("", value=st.session_state.desserte_vals[i], key=key_dtv)
+        val_dtv = cols[4].checkbox("Desserte TGV", value=st.session_state.desserte_vals[i], key=key_dtv, label_visibility="collapsed")
         edited_lgv.append(val_lgv)
         edited_desserte.append(val_dtv)
         if val_lgv != df.loc[i, 'ligne_grande_vitesse'] or val_dtv != df.loc[i, 'desserte_tgv']:
